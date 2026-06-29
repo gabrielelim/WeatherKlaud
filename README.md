@@ -1,19 +1,19 @@
-# 🎈 Blank app template
+#WeatherKlad
 
-A simple Streamlit app template for you to modify!
+A simple Streamlit to display weather information in artistic way
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+# README
 
-### How to run it on your own machine
+This notebook demonstrates geospatial data processing and visualization using Python libraries such as `geopandas` and `folium`. It covers:
 
-1. Install the requirements
+- Loading geographical shapefiles and CSV data.
+- Generating random rainfall data for demonstration purposes.
+- Preparing GeoDataFrames (creating point geometries, reprojecting CRS).
+- Performing spatial joins to link weather stations to administrative counties.
+- Aggregating data (e.g., total rainfall, station count per county).
+- Visualizing data on interactive maps using `folium`, including:
+    - Adding custom markers for weather stations.
+    - Creating choropleth maps for rainfall distribution and station density.
+    - Implementing interactive tooltips and popups for detailed information on map layers.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Data Sources
